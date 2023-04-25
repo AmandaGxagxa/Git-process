@@ -9,10 +9,13 @@ Version control software keeps track of every modification to the code in a spec
 ``` touch README.md ```
 ### Initialise your git in your folder
 ``` git init ```
+
 ### The git add command adds a change in the working directory to the staging area
 - git add doesn't really affect the repository in any significant way—changes are not actually recorded until you run git commit.
-``` git add . ```
 
-git commit -m "first commit"
+``` git add . ```
+### Te git commit used to create a snapshot of the staged changes along a timeline of a Git projects history.
+``` git commit -m "first commit" ```
+
 git remote add origin git@github.com:alexpchin/<reponame>.git
 git push -u origin master ```
