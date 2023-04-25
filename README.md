@@ -5,3 +5,10 @@ Version control software keeps track of every modification to the code in a spec
 - create a repository use the same name you did on your project folder.
 
 ## In you terminal
+
+``` touch README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin git@github.com:alexpchin/<reponame>.git
+git push -u origin master ```
