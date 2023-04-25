@@ -6,9 +6,12 @@ Version control software keeps track of every modification to the code in a spec
 
 ## In you terminal
 
-``` touch README.md
-git init
-git add README.md
+``` touch README.md ```
+### Initialise your git in your folder
+``` git init ```
+### Add all your files to your version control
+``` git add . ```
+
 git commit -m "first commit"
 git remote add origin git@github.com:alexpchin/<reponame>.git
 git push -u origin master ```
