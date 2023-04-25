@@ -9,7 +9,8 @@ Version control software keeps track of every modification to the code in a spec
 ``` touch README.md ```
 ### Initialise your git in your folder
 ``` git init ```
-### Add all your files to your version control
+### The git add command adds a change in the working directory to the staging area
+---git add doesn't really affect the repository in any significant way—changes are not actually recorded until you run git commit.
 ``` git add . ```
 
 git commit -m "first commit"
