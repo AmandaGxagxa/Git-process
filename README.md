@@ -14,8 +14,15 @@ Version control software keeps track of every modification to the code in a spec
 - git add doesn't really affect the repository in any significant way—changes are not actually recorded until you run git commit.
 
 ``` git add . ```
-### Te git commit used to create a snapshot of the staged changes along a timeline of a Git projects history.
+
+### The git commit used to create a snapshot of the staged changes along a timeline of a Git projects history:
+
 ``` git commit -m "first commit" ```
 
-git remote add origin git@github.com:alexpchin/<reponame>.git
-git push -u origin master ```
+### The git remote add is used to add a new remote:
+
+``` git remote add origin git@github.com:alexpchin/<reponame>.git ```
+
+### git push will push your code to the master branch of the remote repository defined with origin and -u let you point your current local branch to the remote master branch:
+  
+``` git push -u origin master ```
